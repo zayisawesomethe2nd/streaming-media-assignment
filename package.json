@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.32.0"
+  },
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Zay's Streaming Media Assignment.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "\"echo \\\"Tests complete\\\"\""
+  },
+  "author": "Zay",
+  "license": "UNLICENSED"
+}
